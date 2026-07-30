@@ -1,8 +1,25 @@
 aid: mito-material-solutions
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mito-material-solutions.png
 name: MITO Material Solutions
-description: MITO Material Solutions is a company surfaced as a portfolio company of techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: MITO Material Solutions (MITO Materials) is a specialty chemical company that develops
+  patented hybrid additive technology to strengthen composite and thermoplastic materials. Its platform
+  functionalizes graphene and biomaterials to improve strength, durability, flexibility, and sustainability
+  without requiring changes to a manufacturer's existing process. Core products include the MITO hybrid
+  additive platform, MITO E-GO, MITO E-GO Res-1, and MITO ACRE, serving the sports and recreation,
+  transportation, automotive, and infrastructure industries. The company is a Techstars portfolio
+  company and was added to the API Evangelist network for enrichment. As of this pass, MITO publishes
+  no developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/mito-material-solutions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Materials Science
+- Specialty Chemicals
+- Composites
+- Graphene
+- Advanced Materials
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +47,10 @@ maintainers:
 common:
 - type: Website
   url: https://mitomaterials.com/
+- type: Blog
+  url: https://mitomaterials.com/about/news
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
